@@ -1,0 +1,24 @@
+#!/bin/sh
+export ZDOTDIR=$HOME/.config/zsh
+export CM_LAUNCHER="dmenu"
+HISTFILE=$ZDOTDIR/.zsh_history
+HISTSIZE=10000
+SAVEHIST=10000
+export PATH="$HOME/.local/bin":$PATH
+export PATH="$HOME/.local/share/nvim/mason/bin":$PATH
+export XDG_CONFIG_HOME="$HOME/.config"
+export MANPAGER="less -R --use-color -Dd+r -Du+b"
+export MANWIDTH=999
+export GTK_THEME="Qogir-Dark"
+export PATH=$HOME/.cargo/bin:$PATH
+export GOPATH=$HOME/.local/share/go
+export EDITOR="nvim"
+export TERMINAL="alacritty"
+export BROWSER="brave"
+export QT_QPA_PLATFORMTHEME="qt5ct"
+
+# Clipmenu
+export CM_SELECTIONS="clipboard"
+export CM_DEBUG=0
+export CM_OUTPUT_CLIP=0
+export CM_MAX_CLIPS=100
